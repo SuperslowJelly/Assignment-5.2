@@ -1,10 +1,10 @@
-public class PenaltyKick {
+public class PenaltyShootout {
 
     private int scoredCounter;
     private int totalKicked;
     private final Player goalie;
 
-    public PenaltyKick(Player goalie) {
+    public PenaltyShootout(Player goalie) {
         this.goalie = goalie;
         this.scoredCounter = 0;
         this.totalKicked = 0;
